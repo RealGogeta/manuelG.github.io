@@ -1,25 +1,28 @@
 .row{
-    color:gold;
+    color:blue;
     font-size:20px;
 }
 .headshot{
     width:20%;
+    
    
 }
 .mid{
-    color:gold;
+    color:blue;
     align-items:center;
     font-size:20px;
     margin-top:5px;
     margin-bottom:5px;
     font-family:Raleway;
+    text-align: center;
     
 }
 .footer{
     display:flex;
     flex-direction:row;
-    justify-content:space-evenly;
+    justify-content:space-around;
     font-family:Raleway;
+    border: 3px solid black;
     }
 .contact{
     display:flex; 
@@ -28,9 +31,23 @@
     font-family:Raleway;
     }
 body{
-    background-image: url("https://i2.wp.com/www.techwibe.com/wp-content/uploads/2016/12/windows-10-shutting-down-featured.png?ssl=1");
+    background-image: url("https://media.tenor.com/images/4a7edb9719112f41ef4fea65a787f9fc/tenor.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     
+}
+
+.me {
+    color: blue;
+    font-family: Raleway;
+    font-size: 40px;
+    margin: 50px;
+}
+.about{
+    color: blue;
+    font-family: Raleway;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
 }
